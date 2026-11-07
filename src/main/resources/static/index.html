@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Set to Rise</title>
+  <meta name="description" content="Headlines from several outlets, how they may affect you, and the strongest case from the other side.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="css/styles.css?v=9">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#/politics" id="brand">Set to Rise</a>
+  </header>
+
+  <main class="wrap" id="view" tabindex="-1" aria-live="polite"></main>
+
+  <footer class="wrap site-footer">
+    <p>Headlines link to the original outlets and are shown as published. AI notes are generated from the
+      headline and the outlet's summary only. Outlet lean labels are placeholders, not ratings.
+      Non-commercial demo.</p>
+    <p id="nyt-credit" hidden>Some headlines: Data provided by The New York Times.</p>
+    <p>Your quiz answers and lens never leave this device. <a href="#/quiz">Retake the quiz</a></p>
+  </footer>
+
+  <nav class="tabbar" id="tabs" aria-label="Sections">
+    <a href="#/politics" data-tab="politics" aria-label="American Politics" title="American Politics">
+      <img src="img/nav/politics.svg" width="36" height="36" alt="">
+    </a>
+    <a href="#/issues" data-tab="issues" aria-label="Social Justice" title="Social Justice">
+      <img src="img/nav/issues.svg" width="36" height="36" alt="">
+    </a>
+    <a href="#/global" data-tab="global" aria-label="Global Issues" title="Global Issues">
+      <img src="img/nav/global.svg" width="36" height="36" alt="">
+    </a>
+    <a href="#/quiz" data-tab="quiz" id="lens-tab" aria-label="Your lens" title="Your lens">
+      <img src="img/nav/compass.svg" width="36" height="36" alt="">
+    </a>
+  </nav>
+
+  <script src="js/config.js?v=9"></script>
+  <script src="js/compass.js?v=9"></script>
+  <script src="js/app.js?v=9"></script>
+</body>
+</html>

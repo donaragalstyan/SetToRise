@@ -1,0 +1,16 @@
+# Build output
+target/
+*.class
+
+# Secrets: never commit keys
+.env
+.env.*
+*.env
+application-local.properties
+
+# IDE / OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+*.log
